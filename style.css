@@ -1,0 +1,87 @@
+/* body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.birthday-card {
+  display: flex;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-width: 800px;
+  width: 90%;
+  animation: fadeIn 1s ease;
+}
+
+.photo-section {
+  flex: 1;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.photo-section img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.4);
+}
+
+.message-section {
+  flex: 2;
+  padding: 2rem 3rem;
+  background: linear-gradient(to bottom right, #fff1f9, #ffe7f3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.message-section h1 {
+  font-size: 2.5rem;
+  color: #ff1493;
+  margin-bottom: 1rem;
+}
+
+.message-section p {
+  font-size: 1.2rem;
+  color: #444;
+  margin: 0.5rem 0;
+}
+
+.from {
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: #888;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .birthday-card {
+    flex-direction: column;
+  }
+
+  .photo-section,
+  .message-section {
+    padding: 1.5rem;
+    text-align: center;
+  }
+} */
